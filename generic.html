@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <!--
-	Solid State by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Graduate School</title>
+		<title>Generic - Hyperspace by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,105 +14,46 @@
 	</head>
 	<body class="is-preload">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Hyperspace</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
 
-				<!-- Header -->
-					<header id="header">
-						<h1><a href="index.html">Jacob Tiede</a></h1>
-						<nav>
-							<a href="#menu">Menu</a>
-						</nav>
-					</header>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-				<!-- Menu -->
-					<nav id="menu">
+				<!-- Main -->
+					<section id="main" class="wrapper">
 						<div class="inner">
-							<h2>Menu</h2>
-							<ul class="links">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Graduate School</a></li>
-								<li><a href="elements.html">Elements</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
+							<h1 class="major">A Generic Page</h1>
+							<span class="image fit"><img src="images/pic04.jpg" alt="" /></span>
+							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
+							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
 						</div>
-					</nav>
-
-				<!-- Wrapper -->
-					<section id="wrapper">
-						<header>
-							<div class="inner">
-								<h2>Graduate School</h2>
-								<p>Some assorted projects</p>
-							</div>
-						</header>
-
-						<!-- Content -->
-							<div class="wrapper">
-								<div class="inner">
-
-									<h3 class="major">Synchonized Neural Networks -- Computational Neurology</h3>
-									<p>Computational neurology is a big interest of mine, because I can see how many of the ideas of data science came to be. The first Artificial Neural Networks (ANNs) were modeled after neural networks within the brain, and I find learning those intuitions fascinating. In this project specifically, I started by replicating results of a paper on how neural networks can become synchronized (all neurons firing at the same time). This concept of neural synchronization is widely applicable for understanding things like muscle contraction and circadian rhythm, so I decided to extend the paper by looking at how other neural structures can disrupt or cause synchronization in a non-isolated neural network. This involved simulating two neural networks that were connected, but which had different internal properties from one another and seeing if one neural network could influence another. The results of the simulation were that another network could, under the right circumstances, influence another to get synchronization.</p>
-
-									<p>This project may seem somewhat out of place amongst my others since it is not using an Artificial Neural Network, but rather it is a simulation of ‘real’, biological neurons. I include this in the showcase of my work because it exemplifies some of my interests outside of data science. A complete, very long, implementation/extended explanation can be found below:</p>
-									<section class="features">
-										<article>
-											<a href="Synchronized_Neural_Networks.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Synchronized Neural Networks</h3>
-											<p>This project was implemented in Python from 'scratch'. Numpy was used to approximate all differential equations.</p>
-											<a href="Synchronized_Neural_Networks.html" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="https://direct.mit.edu/neco/article/15/3/509/6713/Synchronization-in-Networks-of-Excitatory-and" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<h3 class="major">Original Paper</h3>
-											<p>This is the paper that much of this project is focused on replicating and expanding.</p>
-											<a href="https://direct.mit.edu/neco/article/15/3/509/6713/Synchronization-in-Networks-of-Excitatory-and" class="special">Learn more</a>
-										</article>
-									</section>
-
-									<h3 class="major">Computer Vision -- Deep Learning</h3>
-									<p>Computer vision was something that really captured my imagination, both now and as a student. I liked its intersection with art and math, as well as its wide applicability to the modern world. This prompted me to focus a plethora of projects on implementing computer vision models from the recent literature on the subject. A subset of these can be found below:</p>
-
-									<section class="features">
-										<article>
-											<a href="Image_to_image_translation.html" class="image"><img src="images/pic05.JPG" alt="" /></a>
-											<h3 class="major">Image to Image Translation</h3>
-											<p>In this project I took satellite photos and transformed them into abstract map representations using U-net and pytorch.</p>
-											<a href="Image_to_image_translation.html" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="ImageSegmentation.html" class="image"><img src="images/pic06.JPG" alt="" /></a>
-											<h3 class="major">Image Segmentation</h3>
-											<p>This project implements an image segmentation neural network using a modern dual task loss (trained to guess both the outline and segmentation). In the end this implementation overfits to the training set, but without more computing power this problem is hard to solve.</p>
-											<a href="ImageSegmentation.html" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="GANsWithAttention.html" class="image"><img src="images/pic07.JPG" alt="" /></a>
-											<h3 class="major">Generating Fake Numbers with GANs</h3>
-											<p>This project used Generative Adversarial Neural Networks to generate handwritten digits. The GAN model implemented used an attention mechanism and Atrous Spatial Pooling, and did show a noticeably faster convergence than traditional methods.</p>
-											<a href="GANsWithAttention.html" class="special">Learn more</a>
-										</article>
-										<article>
-											<a href="AdversarialGANs.html" class="image"><img src="images/pic08.JPG" alt="" /></a>
-											<h3 class="major">Adversarial GANs</h3>
-											<p>In this project I implemented my own neural architecture to create adversarial images using a GAN structure. The advantage of my method was that you don’t need to treat each image as different optimization problems. The paper with most of the explanation was implemented on MNIST, but I also implemented it on Caltech-101 (notebook found <a href='AdversarialGANs_caltech-101.html'>here</a>) with good results.</p>
-											<a href="AdversarialGANs.html" class="special">Learn more</a>
-										</article>
-									</section>
-									
-									<h3 class="major">Statistical Projects</h3>
-									<p>In this section</p>
-
-								</div>
-							</div>
-
 					</section>
 
 			</div>
 
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
